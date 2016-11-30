@@ -1,0 +1,17 @@
+QPushButton {
+    background-color: qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #9ec745 ,stop:1 #e3ff0f);
+    width:200px;
+    height:70px;
+    border-radius:20px;
+}
+QPushButton:hover:!pressed{
+     background-color: qlineargradient(x1:1,y1:1,y2:0,x2:0
+    stop: 0 #9ec745 ,stop:1 #e3ff0f);
+    }	
+ QPushButton:pressed{
+ border: 10px;
+ }    
+ QCheckBox{
+     
+ }

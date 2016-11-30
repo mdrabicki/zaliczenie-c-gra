@@ -1,0 +1,33 @@
+QPushButton{ 
+    font: bold 36px;
+    
+    width:500px;
+    min-height :200px;
+    background-color: qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #289144 ,stop:1 #5cbf2a);
+    border-radius: 15px
+
+    }
+ QPushButton:pressed{
+	border: 3px solid white ;
+	width:400px;
+     
+    }
+QPushButton:hover:!pressed{
+	background-color:qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #5cbf2a ,stop:1 #289144);
+    }
+ QPushButton[accessibleName="optionsButton"]:hover:!pressed{
+    background-color: qlineargradient(x1:1,y1:1,y2:0,x2:0
+    stop: 0 #9ec745 ,stop:1 #e3ff0f);
+    }	   
+QPushButton[accessibleName="optionsButton"]{
+    background-color: qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #9ec745 ,stop:1 #e3ff0f);
+    }	
+ QPushButton[accessibleName="exitButton"]{
+    background-color:qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #5C0606 ,stop:1 #D40707);}
+    QPushButton[accessibleName="exitButton"]:hover:!pressed{
+    background-color:qlineargradient(x1:1,y1:1,y2:0,x2:0
+    stop: 0 #5C0606 ,stop:1 #D40707);}

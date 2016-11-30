@@ -1,0 +1,34 @@
+MyButton{ 
+    font: bold 36px;
+    
+    width:500px;
+    min-height :200px;
+    background-color: qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #289144 ,stop:1 #5cbf2a);
+    border-radius: 15px
+
+    }
+ MyButton:pressed{
+	border: 3px solid white ;
+	width:400px;
+     
+    }
+MyButton:hover:!pressed{
+	background-color:qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #5cbf2a ,stop:1 #289144);
+    }
+ MyButton[accessibleName="optionsButton"]:hover:!pressed{
+    background-color: qlineargradient(x1:1,y1:1,y2:0,x2:0
+    stop: 0 #9ec745 ,stop:1 #e3ff0f);
+    }	   
+MyButton[accessibleName="optionsButton"]{
+    background-color: qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #9ec745 ,stop:1 #e3ff0f);
+    }	
+ MyButton[accessibleName="exitButton"]{
+    background-color:qlineargradient(x1:0,y1:0,y2:1,x2:1
+    stop: 0 #5C0606 ,stop:1 #D40707);}
+    MyButton[accessibleName="exitButton"]:hover:!pressed{
+    background-color:qlineargradient(x1:1,y1:1,y2:0,x2:0
+    stop: 0 #5C0606 ,stop:1 #D40707);}
+
